@@ -1,0 +1,18 @@
+[package]
+name = "mini-redis-clone"
+version = "0.1.0"
+edition = "2021"
+authors = ["Nathan Cannell"]
+description = "A minimal Redis clone implemented in Rust"
+
+[dependencies]
+tokio = { version = "1.28", features = ["full"] }
+bytes = "1.4"
+atoi = "2.0"
+dashmap = "5.4"
+thiserror = "1.0"
+log = "0.4"
+env_logger = "0.10"
+
+[dev-dependencies]
+redis = "0.23" 
