@@ -1,2 +1,3 @@
 Makefile linguist-detectable=false
 *.rs linguist-language=Rust
+/target linguist-vendored
